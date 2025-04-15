@@ -48,6 +48,9 @@ public class Dropdowns {
 		Thread.sleep(3000);
 		ideD.deselectAll();
 	
+		
+		//qa traniees
+		
 
 	}
 
