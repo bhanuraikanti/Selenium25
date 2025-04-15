@@ -8,13 +8,13 @@ public class Edge {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-     //  WebDriver driver = new EdgeDriver();
-  	  // driver.manage().window().maximize();
-     //  driver.get("https://www.hyrtutorials.com/p/window-handles-practice.html");
+       WebDriver driver = new EdgeDriver();
+  	   driver.manage().window().maximize();
+       driver.get("https://www.hyrtutorials.com/p/window-handles-practice.html");
 
 		//single window
-		// String parentWindowHandle = driver.getWindowHandle();
-		// driver.findElement(By.cssSelector("button[onclick=\"newBrowserWindow()\"]")).click();
+		 String parentWindowHandle = driver.getWindowHandle();
+		 driver.findElement(By.cssSelector("button[onclick=\"newBrowserWindow()\"]")).click();
   
 	}
 
