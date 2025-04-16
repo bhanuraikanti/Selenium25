@@ -52,8 +52,7 @@ public class chrome {
 	
 	}
 	
-	// bhanu prasad bbcwbckqjkwb ckjwqb
-
+	
 
 	private static WebElement highlight(WebDriver driver, WebElement element) {
 		// TODO Auto-generated method stub
