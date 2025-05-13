@@ -16,10 +16,6 @@ public class Compare {
 		
 		options.setExperimentalOption("excludeSwitches",new String[]{"enable-automation"});
 		
-//		options.setExperimentalOption("useAutomationExtension",false);
-//		
-//		options.addArguments("--disable-blink-features=AutomationControlled");
-		
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("https://www.100percentpure.com/");

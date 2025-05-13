@@ -18,10 +18,10 @@ public class alertsinweb {
 
 		//Alert Box
 				
-//		    		driver.findElement(By.id("alertBox")).click();
-//		    		
-//			System.out.println(driver.switchTo().alert().getText());
-//			     	Thread.sleep(3000);
+		    		driver.findElement(By.id("alertBox")).click();
+		    		
+			System.out.println(driver.switchTo().alert().getText());
+			     	Thread.sleep(3000);
 //		        	driver.switchTo().alert().accept();
 //				System.out.println(driver.findElement(By.id("output")).getText());
 
@@ -55,7 +55,7 @@ public class alertsinweb {
 				System.out.println(driver.findElement(By.id("output")).getText());
 				
 
-	//	driver.quit();
+		driver.quit();
 	
 				//QA TRF6GBX7UH7HUH8JHH88
 				

@@ -20,10 +20,10 @@ public class Screenshots {
 		driver.manage().window().maximize();
 		
 		//file
-//		File Sourcefile = driver.getScreenshotAs(OutputType.FILE);
-//		File destFile = new File("./screenshot/.jpg");
-//		FileUtils.copyFile(Sourcefile, destFile);
-//		System.out.println("Screenshot saved succesfully");
+		File Sourcefile = driver.getScreenshotAs(OutputType.FILE);
+		File destFile = new File("./screenshot/.jpg");
+		FileUtils.copyFile(Sourcefile, destFile);
+		System.out.println("Screenshot saved succesfully");
 //		driver.quit();
 		
 		//Bytes
@@ -36,14 +36,14 @@ public class Screenshots {
 //		driver.quit();
 
 //	Base64
-		String base64code = driver.getScreenshotAs(OutputType.BASE64);
-		byte[] bytearr = Base64.getDecoder().decode(base64code);
-		File destFile = new File("./screenshot/m.jpg");
-		FileOutputStream fos = new FileOutputStream(destFile);
-		fos.write(bytearr);
-		fos.close();
-		System.out.println("Screenshot saved succesfully");
-		driver.quit();
+//		String base64code = driver.getScreenshotAs(OutputType.BASE64);
+//		byte[] bytearr = Base64.getDecoder().decode(base64code);
+//		File destFile = new File("./screenshot/m.jpg");
+//		FileOutputStream fos = new FileOutputStream(destFile);
+//		fos.write(bytearr);
+//		fos.close();
+//		System.out.println("Screenshot saved succesfully");
+//		driver.quit();
 	
 	
 	
